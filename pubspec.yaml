@@ -6,6 +6,8 @@ environment:
 dependencies:
     flutter:
         sdk: flutter
+    flutter_localizations:
+        sdk: flutter
     cupertino_icons: ^0.1.2
     provider_architecture: ^1.0.3
     responsive_builder: ^0.1.4
@@ -13,6 +15,7 @@ dependencies:
     logger: ^0.7.0+2
     get_it: ^3.0.3
     equatable: ^1.0.1
+
 dev_dependencies:
     flutter_test:
         sdk: flutter

@@ -1,5 +1,5 @@
 library home_view;
-
+import 'package:flutter_app_ncovi/generated/i18n.dart';
 import 'package:provider_architecture/provider_architecture.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:flutter/material.dart';
@@ -7,7 +7,6 @@ import 'home_view_model.dart';
 
 part 'home_mobile.dart';
 part 'home_tablet.dart';
-part 'home_desktop.dart';
 
 class HomeView extends StatelessWidget {
   @override
@@ -21,8 +20,7 @@ class HomeView extends StatelessWidget {
       builder: (context, viewModel, child) {
         return ScreenTypeLayout(
           mobile: _HomeMobile(viewModel),
-          desktop: _HomeDesktop(viewModel),
-          tablet: _HomeTablet(viewModel),  
+          tablet: _HomeTablet(viewModel),
         );
       }
     );

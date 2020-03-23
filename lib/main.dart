@@ -1,3 +1,6 @@
+import 'package:flutter_app_ncovi/generated/i18n.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+
 import 'core/locator.dart';
 import 'core/providers.dart';
 import 'core/services/navigator_service.dart';
@@ -16,6 +19,12 @@ class MainApplication extends StatelessWidget {
     return MultiProvider(
       providers: ProviderInjector.providers,
       child: MaterialApp(
+        localizationsDelegates: [
+          S.delegate,
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+        ],
+        supportedLocales: S.delegate.supportedLocales,
         navigatorKey: locator<NavigatorService>().navigatorKey,
         home: HomeView(),
       ),
