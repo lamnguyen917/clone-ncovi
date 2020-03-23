@@ -9,7 +9,7 @@ class _HomeMobile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Mobile'),
+        title: Text(S.of(context).mobile),
         backgroundColor: Colors.black,
       ),
       body: Center(
@@ -17,7 +17,7 @@ class _HomeMobile extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have pushed the button this many times: ',
+              S.of(context).message,
               style: TextStyle(fontSize: 14),
             ),
             Text(
