@@ -1,5 +1,11 @@
 {
   "title": "Hello!",
   "message" : "You have pushed the button this many times: ",
-  "mobile": "Mobile"
+  "mobile": "Mobile",
+  "banchidao": "Ban chỉ đạo quốc gia",
+  "phongchongdichbenh": "Phòng chống dịch bệnh covid 19",
+  "phone": "Số điện thoại",
+  "input_number": "Nhập số điện thoại",
+  "register": "Đăng ký mới",
+  "login": "Đăng nhập"
 }

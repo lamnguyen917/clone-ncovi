@@ -1,5 +1,7 @@
 {
   "title": "Xin chào!",
-  "message" : "Bạn đã nhấn nút này nhiều lần: ",
-  "mobile": "Di động"
+  "message": "Bạn click vào đây : ",
+  "mobile": "Di động",
+  "banchidao": "Ban chỉ đạo quốc gia",
+  "phongchongdichbenh": "Phòng chống dịch bệnh covid 19"
 }
