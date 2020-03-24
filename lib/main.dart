@@ -1,4 +1,6 @@
 import 'package:flutter_app_ncovi/generated/i18n.dart';
+import 'package:flutter_app_ncovi/views/singin/LoginScreen.dart';
+import 'package:flutter_app_ncovi/views/splat/SplatScreen.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'core/locator.dart';
@@ -19,6 +21,7 @@ class MainApplication extends StatelessWidget {
     return MultiProvider(
       providers: ProviderInjector.providers,
       child: MaterialApp(
+        // Setup multilanguage
         localizationsDelegates: [
           S.delegate,
           GlobalMaterialLocalizations.delegate,
@@ -26,8 +29,14 @@ class MainApplication extends StatelessWidget {
         ],
         supportedLocales: S.delegate.supportedLocales,
         navigatorKey: locator<NavigatorService>().navigatorKey,
-        home: HomeView(),
+        home: SplatScreen(),
+        // Create list router
+        routes: {
+          SplatScreen.routeName: (_) => SplatScreen(),
+          LoginScreen.routeName: (_) => LoginScreen()
+        },
       ),
     );
   }
+
 }

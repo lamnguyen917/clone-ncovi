@@ -21,8 +21,19 @@ class S implements WidgetsLocalizations {
   @override
   TextDirection get textDirection => TextDirection.ltr;
 
+  String get banchidao => "Ban chỉ đạo quốc gia";
+
+  String get input_number => "Nhập số điện thoại";
+
+  String get login => "Đăng nhập";
   String get message => "You have pushed the button this many times: ";
   String get mobile => "Mobile";
+
+  String get phone => "Số điện thoại";
+
+  String get phongchongdichbenh => "Phòng chống dịch bệnh covid 19";
+
+  String get register => "Đăng ký mới";
   String get title => "Hello!";
 }
 
@@ -33,11 +44,16 @@ class $vi extends S {
   TextDirection get textDirection => TextDirection.ltr;
 
   @override
+  String get phongchongdichbenh => "Phòng chống dịch bệnh covid 19";
+
+  @override
+  String get banchidao => "Ban chỉ đạo quốc gia";
+  @override
   String get mobile => "Di động";
   @override
   String get title => "Xin chào!";
   @override
-  String get message => "Bạn đã nhấn nút này nhiều lần: ";
+  String get message => "Bạn click vào đây : ";
 }
 
 class $en extends S {
