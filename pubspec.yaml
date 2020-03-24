@@ -32,6 +32,11 @@ flutter:
       - assets/images/bg_trongdong.png
       - assets/images/logo_bothongtinvatruyenthong.png
       - assets/images/logo_boyte.png
+      - assets/jsons/en_country.json
+      - assets/jsons/vi_country.json
+      - assets/jsons/province_city.json
+      - assets/jsons/district.json
+      - assets/jsons/commune_ward.json
 
       # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

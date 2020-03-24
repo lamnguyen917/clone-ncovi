@@ -23,51 +23,49 @@ class TimeLine extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: ListView.separated(
-        separatorBuilder: (_, __) => SizedBox(
-          height: itemGap,
-        ),
-        shrinkWrap: true,
-        primary: false,
-        controller: controller,
-        itemCount: itemCount,
-        itemBuilder: (context, index) {
-          final child = children[index];
+    return ListView.separated(
+      separatorBuilder: (_, __) => SizedBox(
+        height: itemGap,
+      ),
+      shrinkWrap: true,
+      primary: false,
+      controller: controller,
+      itemCount: itemCount,
+      itemBuilder: (context, index) {
+        final child = children[index];
 
-          final timelineTile = <Widget>[
-            Expanded(
-              flex: 1,
-              child: CustomPaint(
-                foregroundPainter: _TimelinePainter(
-                  indicatorSize: indicatorSize,
-                  lineGap: lineGap,
-                  itemGap: itemGap,
-                  mainIndicatorColor: mainIndicatorColor,
-                ),
-                child: SizedBox(
-                  height: double.infinity,
-                ),
+        final timelineTile = <Widget>[
+          Expanded(
+            flex: 1,
+            child: CustomPaint(
+              foregroundPainter: _TimelinePainter(
+                indicatorSize: indicatorSize,
+                lineGap: lineGap,
+                itemGap: itemGap,
+                mainIndicatorColor: mainIndicatorColor,
+              ),
+              child: SizedBox(
+                height: double.infinity,
               ),
             ),
-            Expanded(
-              flex: 1,
-              child: Container(),
-            ),
-            Expanded(
-              flex: 18,
-              child: child,
-            ),
-          ];
+          ),
+          Expanded(
+            flex: 1,
+            child: Container(),
+          ),
+          Expanded(
+            flex: 18,
+            child: child,
+          ),
+        ];
 
-          return IntrinsicHeight(
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: timelineTile,
-            ),
-          );
-        },
-      ),
+        return IntrinsicHeight(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: timelineTile,
+          ),
+        );
+      },
     );
   }
 }
