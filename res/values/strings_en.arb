@@ -7,5 +7,11 @@
   "phone": "Số điện thoại",
   "input_number": "Nhập số điện thoại",
   "register": "Đăng ký mới",
-  "login": "Đăng nhập"
+  "login": "Đăng nhập",
+  "authen": "Xác thực mã OTP",
+  "title_authen": "Mã các nhận đã được gửi qua SĐT:",
+  "input_otp": "Vui lòng nhập mã OTP",
+  "not_get_code": "Bạn chưa nhận được mã?",
+  "send_again": "Gửi lại OTP",
+  "confirm": "Xác nhận"
 }

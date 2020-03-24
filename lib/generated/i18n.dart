@@ -21,15 +21,26 @@ class S implements WidgetsLocalizations {
   @override
   TextDirection get textDirection => TextDirection.ltr;
 
+  String get authen => "Xác thực mã OTP";
   String get banchidao => "Ban chỉ đạo quốc gia";
+
+  String get confirm => "Xác nhận";
   String get input_number => "Nhập số điện thoại";
+
+  String get input_otp => "Vui lòng nhập mã OTP";
   String get login => "Đăng nhập";
   String get message => "You have pushed the button this many times: ";
   String get mobile => "Mobile";
+
+  String get not_get_code => "Bạn chưa nhận được mã?";
   String get phone => "Số điện thoại";
   String get phongchongdichbenh => "Phòng chống dịch bệnh covid 19";
   String get register => "Đăng ký mới";
+
+  String get send_again => "Gửi lại OTP";
   String get title => "Hello!";
+
+  String get title_authen => "Mã các nhận đã được gửi qua SĐT:";
 }
 
 class $vi extends S {
@@ -39,15 +50,44 @@ class $vi extends S {
   TextDirection get textDirection => TextDirection.ltr;
 
   @override
+  String get input_number => "Nhập số điện thoại";
+
+  @override
+  String get mobile => "Mobile";
+
+  @override
+  String get title => "Hello!";
+
+  @override
+  String get message => "You have pushed the button this many times: ";
+
+  @override
+  String get login => "Đăng nhập";
+  @override
   String get phongchongdichbenh => "Phòng chống dịch bệnh covid 19";
+
+  @override
+  String get confirm => "Xác nhận";
   @override
   String get banchidao => "Ban chỉ đạo quốc gia";
   @override
-  String get mobile => "Di động";
+  String get phone => "Số điện thoại";
+
   @override
-  String get title => "Xin chào!";
+  String get input_otp => "Vui lòng nhập mã OTP";
+
   @override
-  String get message => "Bạn click vào đây : ";
+  String get not_get_code => "Bạn chưa nhận được mã?";
+
+  @override
+  String get send_again => "Gửi lại OTP";
+
+  @override
+  String get authen => "Xác thực mã OTP";
+  @override
+  String get title_authen => "Mã các nhận đã được gửi qua SĐT:";
+  @override
+  String get register => "Đăng ký mới";
 }
 
 class $en extends S {
