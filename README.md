@@ -19,3 +19,6 @@ samples, guidance on mobile development, and a full API reference.
 - Create new file .arb with language
 - Add key-value to file .arb
 - Get key on file .ard with : S.of(context).<key>
+
+# mapbox
+- Key: pk.eyJ1IjoibGFtbmd1eWVuOTE3IiwiYSI6ImNrODU4dzhvNDA0YnkzbHJxNmliZ3U1NzYifQ.FgomVVgx8gJBA4MQfJoQEg
