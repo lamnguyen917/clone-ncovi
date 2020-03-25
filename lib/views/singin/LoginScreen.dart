@@ -3,6 +3,7 @@ import 'package:flutter_app_ncovi/generated/i18n.dart';
 import 'package:flutter_app_ncovi/views/custom/CustomBoxDecoration.dart';
 import 'package:flutter_app_ncovi/views/custom/CustomChoiceLanguage.dart';
 import 'package:flutter_app_ncovi/views/custom/Style.dart';
+import 'package:flutter_app_ncovi/views/singin/AuthenticationScreen.dart';
 
 class LoginScreen extends StatefulWidget {
   // Create routeName use navigation screen
@@ -135,7 +136,10 @@ class _LoginScreenState extends State<LoginScreen> {
                             right: 20 * width),
                         decoration: decorationBackground(),
                         child: GestureDetector(
-                            onTap: null,
+                            onTap: () {
+                              Navigator.of(context).pushNamed(
+                                  AuthenticationScreen.routeName);
+                            },
                             child: Text(S.of(context).login.toUpperCase(),
                                 textAlign: TextAlign.center,
                                 style: styleTextWhile())))),

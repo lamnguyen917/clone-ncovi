@@ -21,8 +21,8 @@ class _CustomChoiceLanguageState extends State<CustomChoiceLanguage> {
     listLanguage.forEach((item) {
       choices.add(Container(
         decoration: decorationBackgroundNone(),
-        width: 80 * width,
-        height: 40 * height,
+        width: 90 * width,
+        height: 50 * height,
         margin: EdgeInsets.only(right: 10 * width),
         child: ChoiceChip(
           selectedShadowColor: Colors.white,

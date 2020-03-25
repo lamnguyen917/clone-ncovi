@@ -89,7 +89,8 @@ class _SplatScreenState extends State<SplatScreen> {
   void _onStatusRequest(Map<PermissionGroup, PermissionStatus> statuses) {
     final status = statuses[PermissionGroup.locationWhenInUse];
     if (status != PermissionStatus.granted) {
-      PermissionHandler().openAppSettings();
+//      PermissionHandler().openAppSettings();
+      Navigator.of(context).pushReplacementNamed(LoginScreen.routeName);
     } else {
       _updateStatus(status);
       Navigator.of(context).pushReplacementNamed(LoginScreen.routeName);

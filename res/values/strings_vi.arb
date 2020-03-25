@@ -1,7 +1,17 @@
 {
-  "title": "Xin chào!",
-  "message": "Bạn click vào đây : ",
-  "mobile": "Di động",
+  "title": "Hello!",
+  "message": "You have pushed the button this many times: ",
+  "mobile": "Mobile",
   "banchidao": "Ban chỉ đạo quốc gia",
-  "phongchongdichbenh": "Phòng chống dịch bệnh covid 19"
+  "phongchongdichbenh": "Phòng chống dịch bệnh covid 19",
+  "phone": "Số điện thoại",
+  "input_number": "Nhập số điện thoại",
+  "register": "Đăng ký mới",
+  "login": "Đăng nhập",
+  "authen": "Xác thực mã OTP",
+  "title_authen": "Mã các nhận đã được gửi qua SĐT:",
+  "input_otp": "Vui lòng nhập mã OTP",
+  "not_get_code": "Bạn chưa nhận được mã?",
+  "send_again": "Gửi lại OTP",
+  "confirm": "Xác nhận"
 }
