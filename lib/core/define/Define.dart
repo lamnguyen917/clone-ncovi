@@ -1,0 +1,1 @@
+enum GenderRadio { male, female }

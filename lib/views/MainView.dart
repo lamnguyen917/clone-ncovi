@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_ncovi/generated/i18n.dart';
-import 'package:flutter_app_ncovi/views/profile/ProfileScreen.dart';
+import 'package:flutter_app_ncovi/views/feedback/FeedBackScreen.dart';
 import 'package:flutter_app_ncovi/views/singin/AuthenticationScreen.dart';
 import 'package:flutter_app_ncovi/views/singin/LoginScreen.dart';
 import 'package:flutter_app_ncovi/views/splat/SplatScreen.dart';
@@ -27,7 +27,7 @@ class MainView extends StatelessWidget {
           SplatScreen.routeName: (_) => SplatScreen(),
           LoginScreen.routeName: (_) => LoginScreen(),
           AuthenticationScreen.routeName: (_) => AuthenticationScreen(),
-          ProfileScreen.routeName: (_) => ProfileScreen()
+          FeedBackScreen.routeName: (_) => FeedBackScreen()
         }
     );
   }

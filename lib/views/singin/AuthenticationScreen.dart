@@ -1,7 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_ncovi/generated/i18n.dart';
-import 'package:flutter_app_ncovi/views/profile/ProfileScreen.dart';
+import 'package:flutter_app_ncovi/views/feedback/FeedBackScreen.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 
 
@@ -184,8 +184,9 @@ class _PinCodeVerificationScreenState extends State<PinCodeVerificationScreen> {
                       height: 50,
                       child: FlatButton(
                         onPressed: () {
-                          Navigator.of(context).pushReplacementNamed(
-                              ProfileScreen.routeName);
+                          Navigator.of(context).pushNamedAndRemoveUntil(
+                              FeedBackScreen.routeName, (
+                              Route<dynamic> route) => false);
                         },
                         child: Text(
                           S
