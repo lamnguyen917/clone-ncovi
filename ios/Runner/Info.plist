@@ -49,5 +49,9 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>io.flutter.embedded_views_preview</key>
+	<true />
+	<key>MGLMapboxAccessToken</key>
+	<string>pk.eyJ1IjoibGFtbmd1eWVuOTE3IiwiYSI6ImNrODU4dzhvNDA0YnkzbHJxNmliZ3U1NzYifQ.FgomVVgx8gJBA4MQfJoQEg</string>
 </dict>
 </plist>

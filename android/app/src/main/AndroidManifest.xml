@@ -28,5 +28,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data android:name="com.mapbox.token" android:value="pk.eyJ1IjoibGFtbmd1eWVuOTE3IiwiYSI6ImNrODZ6aWx6ZjBidDkzbG14aDdmbHE2OTkifQ.luooguW5KUCaHy3ckp4FTw" />
     </application>
 </manifest>

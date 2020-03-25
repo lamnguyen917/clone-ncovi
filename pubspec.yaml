@@ -16,9 +16,9 @@ dependencies:
     get_it: ^3.0.3
     equatable: ^1.0.1
     permission_handler: 2.1.0
-    pin_code_fields: ^2.4.0
+    pin_code_fields: ^2.4.0    
     country_currency_pickers: ^1.0.1
-
+    mapbox_gl: ^0.0.5
 
 dev_dependencies:
     flutter_test:
