@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_ncovi/views/home/HomeScreen.dart';
 
 class HomeView extends StatelessWidget {
   textStyle() {
@@ -12,16 +13,9 @@ class HomeView extends StatelessWidget {
       child: Scaffold(
         // appBar: AppBar(),
         body: TabBarView(
+          physics: NeverScrollableScrollPhysics(),
           children: [
-            new Container(
-              color: Colors.deepOrangeAccent,
-              child: new Center(
-                child: new Text(
-                  "Home page",
-                  style: textStyle(),
-                ),
-              ),
-            ),
+            HomeScreen(),
             new Container(
               color: Colors.blueGrey,
               child: new Center(

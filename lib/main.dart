@@ -14,22 +14,3 @@ void main() async {
   // await LocatorInjector.setupLocator();
   runApp(MainView());
 }
-
-// class MainApplication extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
-//     return MultiProvider(
-//       providers: ProviderInjector.providers,
-//       child: MaterialApp(
-//         localizationsDelegates: [
-//           S.delegate,
-//           GlobalMaterialLocalizations.delegate,
-//           GlobalWidgetsLocalizations.delegate,
-//         ],
-//         supportedLocales: S.delegate.supportedLocales,
-//         navigatorKey: locator<NavigatorService>().navigatorKey,
-//         home: HomeView(),
-//       ),
-//     );
-//   }
-// }
