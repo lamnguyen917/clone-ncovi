@@ -21,25 +21,50 @@ class S implements WidgetsLocalizations {
   @override
   TextDirection get textDirection => TextDirection.ltr;
 
+  String get accept_prolicy =>
+      "Tôi cam kết các thông tin khai là đúng sự thật và đồng ý với";
+
+  String get address => "Địa chỉ hiện tại";
   String get authen => "Xác thực mã OTP";
   String get banchidao => "Ban chỉ đạo quốc gia";
 
-  String get confirm => "Xác nhận";
-  String get input_number => "Nhập số điện thoại";
+  String get birthday => "Ngày tháng năm sinh";
 
+  String get cmt => "Số CTM/CCCD/Hộ chiếu";
+  String get confirm => "Xác nhận";
+
+  String get details_address => "Số nhà,đường,...";
+
+  String get female => "Nữ";
+
+  String get fullname => "Họ và tên";
+
+  String get gender => "Giới tính";
+
+  String get infomation => "Thông tin cá nhân";
+
+  String get input_birthday => "dd/MM/yyyy";
+
+  String get input_cmt => "Nhập số CMT/CCCD/Hộ chiếu";
+
+  String get input_name => "Nhập họ và tên";
+  String get input_number => "Nhập số điện thoại";
   String get input_otp => "Vui lòng nhập mã OTP";
   String get login => "Đăng nhập";
+
+  String get male => "Nam";
   String get message => "You have pushed the button this many times: ";
   String get mobile => "Mobile";
-
   String get not_get_code => "Bạn chưa nhận được mã?";
   String get phone => "Số điện thoại";
   String get phongchongdichbenh => "Phòng chống dịch bệnh covid 19";
+
+  String get private_policy => "Điều khoản sử dụng";
   String get register => "Đăng ký mới";
 
+  String get select_country => "Chọn quốc tịch";
   String get send_again => "Gửi lại OTP";
   String get title => "Hello!";
-
   String get title_authen => "Mã các nhận đã được gửi qua SĐT:";
 }
 
@@ -50,42 +75,76 @@ class $vi extends S {
   TextDirection get textDirection => TextDirection.ltr;
 
   @override
-  String get input_number => "Nhập số điện thoại";
+  String get birthday => "Ngày tháng năm sinh";
 
   @override
-  String get mobile => "Mobile";
+  String get gender => "Giới tính";
+
+  @override
+  String get input_name => "Nhập họ và tên";
+  @override
+  String get input_number => "Nhập số điện thoại";
 
   @override
   String get title => "Hello!";
 
   @override
-  String get message => "You have pushed the button this many times: ";
+  String get login => "Đăng nhập";
 
   @override
-  String get login => "Đăng nhập";
+  String get accept_prolicy =>
+      "Tôi cam kết các thông tin khai là đúng sự thật và đồng ý với";
+
+  @override
+  String get input_cmt => "Nhập số CMT/CCCD/Hộ chiếu";
+
+  @override
+  String get not_get_code => "Bạn chưa nhận được mã?";
+
+  @override
+  String get female => "Nữ";
+
+  @override
+  String get select_country => "Chọn quốc tịch";
+
+  @override
+  String get private_policy => "Điều khoản sử dụng";
+
+  @override
+  String get address => "Địa chỉ hiện tại";
+  @override
+  String get details_address => "Số nhà,đường,...";
+  @override
+  String get mobile => "Mobile";
+  @override
+  String get message => "You have pushed the button this many times: ";
   @override
   String get phongchongdichbenh => "Phòng chống dịch bệnh covid 19";
-
   @override
   String get confirm => "Xác nhận";
   @override
   String get banchidao => "Ban chỉ đạo quốc gia";
   @override
   String get phone => "Số điện thoại";
-
   @override
   String get input_otp => "Vui lòng nhập mã OTP";
-
   @override
-  String get not_get_code => "Bạn chưa nhận được mã?";
-
+  String get infomation => "Thông tin cá nhân";
   @override
   String get send_again => "Gửi lại OTP";
 
   @override
+  String get fullname => "Họ và tên";
+  @override
   String get authen => "Xác thực mã OTP";
   @override
   String get title_authen => "Mã các nhận đã được gửi qua SĐT:";
+
+  @override
+  String get male => "Nam";
+
+  @override
+  String get input_birthday => "dd/MM/yyyy";
   @override
   String get register => "Đăng ký mới";
 }
